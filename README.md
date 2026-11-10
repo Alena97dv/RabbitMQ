@@ -96,8 +96,9 @@ Flag: stream_single_active_consumer, state: enabled
 Flag: tracking_records_in_ets, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
-
+```
 Вывод команды cluster_status со второй ноды:
+```bash
 Cluster status of node rabbit@rabbit2 ...
 Basics
 
@@ -166,3 +167,4 @@ Flag: stream_single_active_consumer, state: enabled
 Flag: tracking_records_in_ets, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
+```
