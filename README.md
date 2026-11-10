@@ -175,5 +175,5 @@ Flag: virtual_host_metadata, state: enabled
 ![Задание 3.6](https://github.com/Alena97dv/RabbitMQ/blob/main/2.png)
 
 Скриншот работы `consumer.py` на второй ноде после отключения первой (доказательство отказоустойчивости):
-![Задание 3.7]()
+![Задание 3.7](https://github.com/Alena97dv/RabbitMQ/blob/main/docker%20stop.png)
 ![Задание 3.7](https://github.com/Alena97dv/RabbitMQ/blob/main/отказоустой-consumer.py.png)
