@@ -97,11 +97,7 @@ Flag: tracking_records_in_ets, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
 
-
-
-
-Вывод команды `cluster_status` с первой ноды:
-```bash
+Вывод команды cluster_status со второй ноды:
 Cluster status of node rabbit@rabbit2 ...
 Basics
 
@@ -170,12 +166,3 @@ Flag: stream_single_active_consumer, state: enabled
 Flag: tracking_records_in_ets, state: enabled
 Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
-
-Скриншот выполнения `rabbitmqadmin get queue='hello'` на первой ноде:
-![Задание 3.5](ссылка_или_файл_скриншота)
-
-Скриншот выполнения `rabbitmqadmin get queue='hello'` на второй ноде:
-![Задание 3.6](ссылка_или_файл_скриншота)
-
-Скриншот работы `consumer.py` на второй ноде после отключения первой (доказательство отказоустойчивости):
-![Задание 3.7](ссылка_или_файл_скриншота)
