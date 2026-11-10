@@ -169,10 +169,11 @@ Flag: user_limits, state: enabled
 Flag: virtual_host_metadata, state: enabled
 ```
 Скриншот выполнения `rabbitmqadmin get queue='hello'` на первой ноде:
-![Задание 3.5](ссылка_или_файл_скриншота)
+![Задание 3.5](https://github.com/Alena97dv/RabbitMQ/blob/main/1.png)
 
 Скриншот выполнения `rabbitmqadmin get queue='hello'` на второй ноде:
-![Задание 3.6](ссылка_или_файл_скриншота)
+![Задание 3.6](https://github.com/Alena97dv/RabbitMQ/blob/main/2.png)
 
 Скриншот работы `consumer.py` на второй ноде после отключения первой (доказательство отказоустойчивости):
-![Задание 3.7](ссылка_или_файл_скриншота)
+![Задание 3.7]()
+![Задание 3.7](https://github.com/Alena97dv/RabbitMQ/blob/main/отказоустой-consumer.py.png)
